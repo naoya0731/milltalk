@@ -1,7 +1,6 @@
 require 'mechanize'
 require 'pry'
 require 'CSV'
-require 'kconv'
 
 def convert_number(str)
   [['①','1 '],['②','2 '],['③','3 '],['④','4 '],['⑤','5 '],['⑥','6 ']].each do |rule|
